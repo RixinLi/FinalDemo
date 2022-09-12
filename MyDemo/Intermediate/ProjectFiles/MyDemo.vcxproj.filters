@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MyDemo.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{DD7152F0-67FE-4A42-84AE-0759DBF4255C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyDemo.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MyDemoEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{664F249F-0C15-4FB7-8DC5-394EB85A0682}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MyDemo">
+      <UniqueIdentifier>{086AF262-B3E4-47B5-9C9C-2C1565E64CB5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MyDemo\MyDemo.Build.cs">
+      <Filter>Source\MyDemo</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MyDemo\MyDemo.cpp">
+      <Filter>Source\MyDemo</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MyDemo\MyDemo.h">
+      <Filter>Source\MyDemo</Filter>
+    </ClInclude>
+    <Filter Include="Source\MyDemo\Private">
+      <UniqueIdentifier>{B204EA1B-4F36-49B7-8D05-24B12F1A254B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MyDemo\Private\None.cpp">
+      <Filter>Source\MyDemo\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MyDemo\Public">
+      <UniqueIdentifier>{7DD8D855-821C-4057-8CC2-81170CDD58F7}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MyDemo\Public\None.h">
+      <Filter>Source\MyDemo\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

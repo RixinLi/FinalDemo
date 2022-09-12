@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MyDemo",
+			"Path": "C:\\GITHUB\\FinalDemo\\MyDemo\\Source\\MyDemo.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MyDemoEditor",
+			"Path": "C:\\GITHUB\\FinalDemo\\MyDemo\\Source\\MyDemoEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

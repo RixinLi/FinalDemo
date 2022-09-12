@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\GITHUB\\FinalDemo\\MyDemo\\Source\\MyDemo\\MyDemo.Build.cs",
+		"C:\\GITHUB\\FinalDemo\\MyDemo\\Plugins\\AdvancedSessions\\Source\\AdvancedSessions\\AdvancedSessions.Build.cs",
+		"C:\\GITHUB\\FinalDemo\\MyDemo\\Source\\MyDemo.Target.cs",
+		"C:\\GITHUB\\FinalDemo\\MyDemo\\Source\\MyDemoEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

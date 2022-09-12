@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-MyDemo.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\GITHUB\FinalDemo\MyDemo\Intermediate\Build\Win64\UE4Editor\Development\MyDemo\None.cpp.obj"
+"C:\GITHUB\FinalDemo\MyDemo\Intermediate\Build\Win64\UE4Editor\Development\MyDemo\MyDemo.cpp.obj"
+"C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"C:\GITHUB\FinalDemo\MyDemo\Intermediate\Build\Win64\UE4Editor\Development\MyDemo\UE4Editor-MyDemo.lib"
