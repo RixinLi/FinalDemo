@@ -869,3 +869,58 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.12-13.30.19:337][370]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/ThirdPersonCharacter6A7B52F14E5E402663146CB13EBE2DE3.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
 [2022.09.12-13.30.19:359][370]AssetCheck: New page: 资产保存：ThirdPersonCharacter
 [2022.09.12-13.30.19:359][370]LogContentValidation: Display: 正在验证Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.09.12-13.32.00:445][819]LogDirectoryWatcher: Display: A directory notification failed for 'C:/GITHUB/FinalDemo/MyDemo/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.12-13.32.00:445][819]LogDirectoryWatcher: Display: A directory notification failed for 'C:/GITHUB/FinalDemo/MyDemo/Content/Developers/26412/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.12-13.32.00:445][819]LogDirectoryWatcher: Display: A directory notification failed for 'C:/GITHUB/FinalDemo/MyDemo/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_40' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_47' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_79' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_90' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_TurnRate_K2Node_InputAxisEvent_38' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:InpAxisEvt_LookUpRate_K2Node_InputAxisEvent_53' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:226][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonCharacter.SKEL_ThirdPersonCharacter_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.PackageMetaData'
+[2022.09.12-13.32.38:227][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2022.09.12-13.32.38:227][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C:UserConstructionScript' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2022.09.12-13.32.38:227][ 26]LogMetaData: Removing '/Game/Blueprints/ThirdPersonGameMode.SKEL_ThirdPersonGameMode_C' ref from Metadata '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.PackageMetaData'
+[2022.09.12-13.32.38:257][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ThirdPersonCharacter" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2022.09.12-13.32.38:274][ 26]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/ThirdPersonCharacter606AD53D4ED80B7A06BABC97A51715AD.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/ThirdPersonCharacter.uasset'
+[2022.09.12-13.32.38:275][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset" SILENT=true
+[2022.09.12-13.32.38:275][ 26]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/ThirdPersonCharacter36E018B042B6C3AEFFA80F94A6E2A8EA.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2022.09.12-13.32.38:276][ 26]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ThirdPersonGameMode" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/ThirdPersonGameMode.uasset" SILENT=true
+[2022.09.12-13.32.38:277][ 26]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/ThirdPersonGameMode23469E61467517A78364C99A08F5ACEE.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/ThirdPersonGameMode.uasset'
+[2022.09.12-13.32.38:349][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.09.12-13.32.38:384][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2022.09.12-13.32.38:399][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.09.12-13.32.38:425][ 26]AssetCheck: New page: 资产保存：多个资产
+[2022.09.12-13.32.38:425][ 26]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.09.12-13.32.38:425][ 26]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode
+[2022.09.12-13.32.38:425][ 26]LogContentValidation: Display: 正在验证ObjectRedirector /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C
+[2022.09.12-13.32.38:425][ 26]LogContentValidation: Display: 正在验证ObjectRedirector /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.Default__ThirdPersonCharacter_C
+[2022.09.12-13.32.38:425][ 26]LogContentValidation: Display: 正在验证ObjectRedirector /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2022.09.12-13.32.42:927][294]LogMetaData: Removing '/Game/Maps/GameMap.GameMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/GameMap.PackageMetaData'
+[2022.09.12-13.32.42:927][294]LogMetaData: Removing '/Game/Maps/GameMap.SKEL_GameMap_C' ref from Metadata '/Game/ThirdPersonBP/Maps/GameMap.PackageMetaData'
+[2022.09.12-13.32.42:946][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap_BuiltData" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap_BuiltData.uasset" SILENT=true
+[2022.09.12-13.32.42:976][294]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/GameMap_BuiltDataF5BB8AFF499022BC3117EE809CA130B2.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap_BuiltData.uasset'
+[2022.09.12-13.32.42:976][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.12-13.32.42:995][294]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2022.09.12-13.32.43:004][294]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/GameMapAF7E79284044C8852A8219A8AFD84314.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap'
+[2022.09.12-13.32.43:008][294]LogFileHelpers: Saving map 'GameMap' took 0.032
+[2022.09.12-13.32.43:084][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.12-13.32.43:100][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.09.12-13.32.43:123][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.09.12-13.32.43:139][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2022.09.12-13.32.43:168][294]AssetCheck: New page: 资产保存：多个资产
+[2022.09.12-13.32.43:168][294]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/Maps/GameMap_BuiltData.GameMap_BuiltData
+[2022.09.12-13.32.43:168][294]LogContentValidation: Display: 正在验证World /Game/Maps/GameMap.GameMap
+[2022.09.12-13.32.53:789][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2022.09.12-13.32.55:669][917]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.12-13.32.55:805][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.09.12-13.32.55:838][917]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2022.09.12-13.32.55:854][917]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2022.09.12-13.32.57:472][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.12-13.32.58:526][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.12-13.32.59:129][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.09.12-13.32.59:582][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2022.09.12-13.32.59:768][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
