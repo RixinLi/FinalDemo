@@ -1374,3 +1374,106 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.12-21.23.04:328][158]AssetCheck: New page: 资产保存：多个资产
 [2022.09.12-21.23.04:328][158]LogContentValidation: Display: 正在验证World /Game/Maps/MainMenuMap.MainMenuMap
 [2022.09.12-21.23.04:328][158]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/Maps/MainMenuMap_BuiltData.MainMenuMap_BuiltData
+[2022.09.12-21.25.58:804][199]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.25.58:829][199]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.09.12-21.27.07:661][318]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.27.07:687][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.09.12-21.28.08:325][948]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.08:351][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.09.12-21.28.20:376][668]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.20:400][668]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2022.09.12-21.28.34:618][518]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.34:643][518]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.09.12-21.28.35:010][539]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.35:036][539]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.09.12-21.28.45:075][140]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.45:100][140]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2022.09.12-21.28.45:337][153]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.45:361][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2022.09.12-21.28.45:531][162]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-21.28.45:556][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2022.09.12-21.29.00:163][ 35]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2022.09.12-21.29.00:163][ 35]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2022.09.12-21.29.00:163][ 35]LogUObjectGlobals: Warning: 寻找对象“Object /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C”失败
+[2022.09.12-21.29.00:935][ 80]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenuMap.MainMenuMap:PersistentLevel.MainMenuMap
+[2022.09.12-21.29.25:378][521]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.12-21.29.25:392][521]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.12-21.30.12:531][312]BlueprintLog: New page: 编译MainMenuMap
+[2022.09.12-21.30.12:532][312]LogBlueprint: Error: [AssetLog] C:\GITHUB\FinalDemo\MyDemo\Content\Maps\MainMenuMap.umap: [Compiler] 此蓝图（自身）并非是一个 PlayerController，因此 ' 目标 ’ 必须拥有一个连接。
+[2022.09.12-21.30.12:532][312]LogBlueprint: Error: [AssetLog] C:\GITHUB\FinalDemo\MyDemo\Content\Maps\MainMenuMap.umap: [Compiler] 变量节点 设置bShowMouseCursor 使用一个无效的目标。它可能依赖于一个没有连接到执行链上且已被清除的节点。
+[2022.09.12-21.30.12:575][312]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2022.09.12-21.30.12:992][337]BlueprintLog: New page: 编译MainMenuMap
+[2022.09.12-21.30.12:993][337]LogBlueprint: Error: [AssetLog] C:\GITHUB\FinalDemo\MyDemo\Content\Maps\MainMenuMap.umap: [Compiler] 此蓝图（自身）并非是一个 PlayerController，因此 ' 目标 ’ 必须拥有一个连接。
+[2022.09.12-21.30.12:994][337]LogBlueprint: Error: [AssetLog] C:\GITHUB\FinalDemo\MyDemo\Content\Maps\MainMenuMap.umap: [Compiler] 变量节点 设置bShowMouseCursor 使用一个无效的目标。它可能依赖于一个没有连接到执行链上且已被清除的节点。
+[2022.09.12-21.30.13:028][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2022.09.12-21.30.22:680][904]BlueprintLog: New page: 编译MainMenuMap
+[2022.09.12-21.30.22:714][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2022.09.12-21.30.24:776][ 28]BlueprintLog: New page: 编译MainMenuMap
+[2022.09.12-21.30.24:811][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.09.12-21.30.25:621][ 77]LogTemp: Repeating last play command: 选中的视口
+[2022.09.12-21.30.25:625][ 77]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.12-21.30.25:625][ 77]PIE: New page: PIE会话：MainMenuMap（2022年9月12日 上午7:30:25）
+[2022.09.12-21.30.25:625][ 77]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenuMap
+[2022.09.12-21.30.25:632][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007396s)
+[2022.09.12-21.30.25:633][ 77]LogAIModule: Creating AISystem for world MainMenuMap
+[2022.09.12-21.30.25:656][ 77]LogPlayLevel: PIE: World Init took: (0.023085s)
+[2022.09.12-21.30.25:656][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenuMap.MainMenuMap to /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap (0.030587s)
+[2022.09.12-21.30.25:677][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.09.12-21.30.25:678][ 77]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.12-21.30.25:678][ 77]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.12-21.30.25:678][ 77]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.12-21.30.25:678][ 77]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.12-21.30.25:678][ 77]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.12-21.30.25:678][ 77]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.12-21.30.25:680][ 77]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.12-21.30.25:680][ 77]LogAudioMixer: Display: 1: FrontRight
+[2022.09.12-21.30.25:691][ 77]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.09.12-21.30.25:691][ 77]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.12-21.30.25:691][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.12-21.30.25:691][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.12-21.30.25:692][ 77]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.12-21.30.25:692][ 77]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.12-21.30.25:692][ 77]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.12-21.30.25:693][ 77]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.12-21.30.25:693][ 77]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.12-21.30.25:693][ 77]LogInit: FAudioDevice initialized.
+[2022.09.12-21.30.25:693][ 77]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenuMap'.
+[2022.09.12-21.30.25:700][ 77]LogLoad: Game class is 'MyGameMode_C'
+[2022.09.12-21.30.25:701][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenuMap.MainMenuMap up for play (max tick rate 60) at 2022.09.12-14.30.25
+[2022.09.12-21.30.25:701][ 77]LogWorld: Bringing up level for play took: 0.001167
+[2022.09.12-21.30.25:701][ 77]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.09.12-21.30.25:702][ 77]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.09.12-21.30.25:702][ 77]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.09.12-21.30.25:702][ 77]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.09.12-21.30.25:702][ 77]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.09.12-21.30.25:702][ 77]PIE: 登陆的服务器
+[2022.09.12-21.30.25:703][ 77]PIE: PIE总开始时间：0.079秒。
+[2022.09.12-21.30.45:465][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.12-21.30.45:465][259]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenuMap
+[2022.09.12-21.30.45:465][259]LogWorld: UWorld::CleanupWorld for MainMenuMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-21.30.45:465][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-21.30.45:472][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.12-21.30.45:480][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-21.30.45:499][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.12-21.30.45:500][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.12-21.30.45:501][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.12-21.30.45:505][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2022.09.12-21.30.45:537][261]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.09.12-21.31.02:289][762]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2022.09.12-21.31.03:171][762]LogSlate: Window '保存内容' being destroyed
+[2022.09.12-21.31.03:186][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/MainMenu" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Widgets/MainMenu.uasset" SILENT=true
+[2022.09.12-21.31.03:190][762]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MainMenu31351F42470DEAE8ECE3F3B4537450B5.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Widgets/MainMenu.uasset'
+[2022.09.12-21.31.03:190][762]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenuMap" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenuMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.12-21.31.03:212][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2022.09.12-21.31.03:225][762]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MainMenuMap2C47FF944EB62B3E420D379F7FC49552.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenuMap.umap'
+[2022.09.12-21.31.03:231][762]LogFileHelpers: Saving map 'MainMenuMap' took 0.041
+[2022.09.12-21.31.03:242][762]AssetCheck: New page: 资产保存：多个资产
+[2022.09.12-21.31.03:243][762]LogContentValidation: Display: 正在验证World /Game/Maps/MainMenuMap.MainMenuMap
+[2022.09.12-21.31.03:243][762]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/Widgets/MainMenu.MainMenu
