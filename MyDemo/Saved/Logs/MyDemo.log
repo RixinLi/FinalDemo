@@ -1216,3 +1216,117 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.12-20.48.49:791][398]LogFileHelpers: Saving map 'MainMenu_Level' took 0.018
 [2022.09.12-20.48.49:799][398]AssetCheck: New page: 资产保存：MainMenu_Level
 [2022.09.12-20.48.49:799][398]LogContentValidation: Display: 正在验证World /Game/Maps/MainMenu_Level.MainMenu_Level
+[2022.09.12-20.50.04:795][864]LogContentBrowser: Deferred new asset file creation: NewWidgetBlueprint
+[2022.09.12-20.50.04:800][864]LogContentBrowser: Creating deferred item: NewWidgetBlueprint
+[2022.09.12-20.50.11:171][247]LogContentBrowser: Attempting asset rename: NewWidgetBlueprint -> MainMenu
+[2022.09.12-20.50.11:180][247]LogContentBrowser: End creating deferred item NewWidgetBlueprint
+[2022.09.12-20.50.11:481][265]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Widgets/MainMenu.MainMenu
+[2022.09.12-20.50.54:780][832]BlueprintLog: New page: 编译MainMenu
+[2022.09.12-20.50.54:812][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2022.09.12-20.50.57:395][985]LogSlate: Window 'MainMenu' being destroyed
+[2022.09.12-20.50.57:402][986]LogRenderer: Reallocating scene render targets to support 1608x772 Format 10 NumSamples 1 (Frame:7341).
+[2022.09.12-20.51.05:664][481]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2022.09.12-20.51.05:664][481]LogLinker: Warning: 未能加载“{FileName}”：无法找到文件。
+[2022.09.12-20.51.05:664][481]LogUObjectGlobals: Warning: 寻找对象“Object /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C”失败
+[2022.09.12-20.51.18:237][233]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.12-20.51.18:250][233]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.12-20.51.22:312][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.09.12-20.51.23:121][476]LogSlate: Window '保存内容' being destroyed
+[2022.09.12-20.51.23:138][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Widgets/MainMenu" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Widgets/MainMenu.uasset" SILENT=true
+[2022.09.12-20.51.23:143][476]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MainMenuDE89565E4869537C3384CE9F9949DF55.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Widgets/MainMenu.uasset'
+[2022.09.12-20.51.23:144][476]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_Level" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenu_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.12-20.51.23:162][476]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.09.12-20.51.23:163][476]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MainMenu_Level71CB048745FE01E70440B3B90587A1AD.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenu_Level.umap'
+[2022.09.12-20.51.23:169][476]LogFileHelpers: Saving map 'MainMenu_Level' took 0.025
+[2022.09.12-20.51.23:184][476]AssetCheck: New page: 资产保存：多个资产
+[2022.09.12-20.51.23:184][476]LogContentValidation: Display: 正在验证WidgetBlueprint /Game/Blueprints/Widgets/MainMenu.MainMenu
+[2022.09.12-20.51.23:184][476]LogContentValidation: Display: 正在验证World /Game/Maps/MainMenu_Level.MainMenu_Level
+[2022.09.12-20.51.29:466][757]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/MainMenu_Level.MainMenu_Level:PersistentLevel.MainMenu_Level
+[2022.09.12-20.51.37:555][226]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.12-20.51.37:569][226]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.12-20.51.46:534][763]BlueprintLog: New page: 编译MainMenu_Level
+[2022.09.12-20.51.46:559][763]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2022.09.12-20.51.46:573][763]LogSlate: Took 0.004564 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.09.12-20.51.47:057][793]BlueprintLog: New page: 编译MainMenu_Level
+[2022.09.12-20.51.47:092][793]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2022.09.12-20.51.47:217][801]BlueprintLog: New page: 编译MainMenu_Level
+[2022.09.12-20.51.47:250][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2022.09.12-20.51.52:759][132]LogTemp: Repeating last play command: 选中的视口
+[2022.09.12-20.51.52:762][132]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.12-20.51.52:762][132]PIE: New page: PIE会话：MainMenu_Level（2022年9月12日 上午6:51:52）
+[2022.09.12-20.51.52:762][132]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu_Level
+[2022.09.12-20.51.52:763][132]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000580s)
+[2022.09.12-20.51.52:763][132]LogAIModule: Creating AISystem for world MainMenu_Level
+[2022.09.12-20.51.52:764][132]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2022.09.12-20.51.52:764][132]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu_Level.MainMenu_Level to /Game/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level (0.001272s)
+[2022.09.12-20.51.52:784][132]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2022.09.12-20.51.52:784][132]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.12-20.51.52:784][132]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.12-20.51.52:784][132]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.12-20.51.52:785][132]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.12-20.51.52:785][132]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.12-20.51.52:785][132]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.12-20.51.52:785][132]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.12-20.51.52:786][132]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.12-20.51.52:786][132]LogAudioMixer: Display: 1: FrontRight
+[2022.09.12-20.51.52:796][132]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.09.12-20.51.52:796][132]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.12-20.51.52:796][132]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.12-20.51.52:796][132]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.12-20.51.52:797][132]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.12-20.51.52:797][132]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.12-20.51.52:797][132]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.12-20.51.52:797][132]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.12-20.51.52:798][132]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.12-20.51.52:798][132]LogInit: FAudioDevice initialized.
+[2022.09.12-20.51.52:798][132]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMenu_Level'.
+[2022.09.12-20.51.52:803][132]LogLoad: Game class is 'GameModeBase'
+[2022.09.12-20.51.52:803][132]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu_Level.MainMenu_Level up for play (max tick rate 60) at 2022.09.12-13.51.52
+[2022.09.12-20.51.52:803][132]LogWorld: Bringing up level for play took: 0.000179
+[2022.09.12-20.51.52:803][132]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2022.09.12-20.51.52:807][132]PIE: 登陆的服务器
+[2022.09.12-20.51.52:807][132]PIE: PIE总开始时间：0.046秒。
+[2022.09.12-20.52.12:590][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.12-20.52.12:590][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu_Level
+[2022.09.12-20.52.12:590][317]LogWorld: UWorld::CleanupWorld for MainMenu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-20.52.12:590][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-20.52.12:601][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.12-20.52.12:604][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-20.52.12:623][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.12-20.52.12:623][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.12-20.52.12:624][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.12-20.52.12:628][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2022.09.12-20.52.12:653][319]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2022.09.12-20.52.20:789][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2022.09.12-20.52.24:259][806]LogSlate: Window '保存内容' being destroyed
+[2022.09.12-20.52.24:281][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainMenu_Level" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenu_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.12-20.52.24:300][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.09.12-20.52.24:303][806]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MainMenu_Level22534BBB4A608707E84BB99945F6CF14.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenu_Level.umap'
+[2022.09.12-20.52.24:308][806]LogFileHelpers: Saving map 'MainMenu_Level' took 0.027
+[2022.09.12-20.52.24:341][806]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu_Level.MainMenu_Level
+[2022.09.12-20.52.24:342][806]Cmd: MAP LOAD FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/MainMenu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.12-20.52.24:342][806]LightingResults: New page: 光照构建
+[2022.09.12-20.52.24:342][806]LoadErrors: New page: 正在加载地图：MainMenu_Level.umap
+[2022.09.12-20.52.24:346][806]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-20.52.24:346][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-20.52.24:365][806]LogWorld: UWorld::CleanupWorld for MainMenu_Level, bSessionEnded=true, bCleanupResources=true
+[2022.09.12-20.52.24:365][806]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.12-20.52.24:365][806]MapCheck: New page: 地图检测
+[2022.09.12-20.52.24:365][806]LightingResults: New page: 光照构建
+[2022.09.12-20.52.24:382][806]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.12-20.52.24:386][806]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2022.09.12-20.52.24:390][806]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu_Level'.
+[2022.09.12-20.52.24:390][806]LogAIModule: Creating AISystem for world MainMenu_Level
+[2022.09.12-20.52.24:401][806]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.12-20.52.24:420][806]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2022.09.12-20.52.24:422][806]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.12-20.52.24:422][806]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.063毫秒。
+[2022.09.12-20.52.24:422][806]LogFileHelpers: Loading map 'MainMenu_Level' took 0.081
+[2022.09.12-20.52.24:456][806]AssetCheck: New page: 资产保存：MainMenu_Level
+[2022.09.12-20.52.24:456][806]LogContentValidation: Display: 正在验证World /Game/Maps/MainMenu_Level.MainMenu_Level
