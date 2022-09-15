@@ -851,3 +851,401 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.15-02.24.39:258][868]LogDirectoryWatcher: Display: A directory notification failed for 'C:/GITHUB/FinalDemo/MyDemo/Saved/Collections/' because it could not be accessed. Aborting watch request...
 [2022.09.15-02.24.43:855][951]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
 [2022.09.15-02.24.45:124][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.09.15-02.27.25:903][388]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.15-02.27.26:048][388]LogStaticMesh: Warning: Mesh SM_Shell_762x39_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39_Empty.SM_Shell_762x39_Empty.
+[2022.09.15-02.27.26:266][388]LogStaticMesh: Warning: Mesh SM_Shell_12Gauge_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge_Empty.SM_Shell_12Gauge_Empty.
+[2022.09.15-02.27.26:397][388]LogActorComponent: RegisterComponentWithWorld: (/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2022.09.15-02.27.26:403][388]LogObjectTools: Deleting 1 worlds: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase
+[2022.09.15-02.27.26:403][388]LogObjectTools: Currently 4 active worlds: /Game/Maps/StartMap.StartMap, /Engine/Transient.World_0, /Engine/Transient.World_1, /Engine/Transient.World_2
+[2022.09.15-02.27.26:418][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2022.09.15-02.27.27:300][388]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.15-02.27.27:316][388]LogWorld: UWorld::CleanupWorld for Weapons_Showcase, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.27.27:316][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.27.27:367][388]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.09.15-02.27.27:388][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2022.09.15-02.27.27:401][388]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.09.15-02.27.49:368][584]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.15-02.27.49:370][584]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.09.15-02.27.58:393][584]LogSlate: Window '选取父类' being destroyed
+[2022.09.15-02.27.58:397][584]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.09.15-02.27.58:403][584]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.09.15-02.28.08:759][201]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_AK47
+[2022.09.15-02.28.08:761][201]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.09.15-02.28.09:875][267]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Weapon/BP_AK47.BP_AK47
+[2022.09.15-02.29.04:083][463]BlueprintLog: New page: 编译BP_AK47
+[2022.09.15-02.29.04:107][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2022.09.15-02.29.10:271][547]BlueprintLog: New page: 编译BP_AK47
+[2022.09.15-02.29.10:296][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2022.09.15-02.29.12:009][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/BP_AK47" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Weapon/BP_AK47.uasset" SILENT=true
+[2022.09.15-02.29.12:017][648]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/BP_AK47769BDF824BBBE5ECF81B80A32A250384.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Weapon/BP_AK47.uasset'
+[2022.09.15-02.29.12:033][648]AssetCheck: New page: 资产保存：BP_AK47
+[2022.09.15-02.29.12:033][648]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/Weapon/BP_AK47.BP_AK47
+[2022.09.15-02.45.40:037][167]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/MyCharacter.MyCharacter
+[2022.09.15-02.45.40:245][167]LogSlate: Took 0.002712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.09.15-02.46.00:795][686]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/AnimStarterPack/UE4_Mannequin/Mesh/SK_Mannequin.SK_Mannequin
+[2022.09.15-02.46.00:824][686]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2022.09.15-02.46.00:833][686]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1.EpicQuadPanorama_CC+EV1', its maximum texture size has been explicitly set to 512.
+[2022.09.15-02.46.00:889][686]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/SunsetAmbientCubemap.SunsetAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.09.15-02.46.00:944][686]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.15-02.46.00:959][686]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2022.09.15-02.46.01:268][687]LogRenderer: Reallocating scene render targets to support 1072x864 Format 10 NumSamples 1 (Frame:1).
+[2022.09.15-02.46.08:409][790]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2022.09.15-02.46.08:413][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.15-02.47.00:856][931]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/UE4_Mannequin_Skeleton9030CC55427B5E09487E55A1B17680C6.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2022.09.15-02.47.00:868][931]AssetCheck: New page: 资产保存：UE4_Mannequin_Skeleton
+[2022.09.15-02.47.00:868][931]LogContentValidation: Display: 正在验证Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2022.09.15-02.47.34:498][720]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Blueprints/Character/BreakMontage.BreakMontage
+[2022.09.15-02.47.34:518][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.15-02.47.34:692][720]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/Character/MyCharacterABP.MyCharacterABP
+[2022.09.15-02.47.34:697][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.15-02.47.35:048][720]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/Character/CharacterABP.CharacterABP
+[2022.09.15-02.47.35:052][720]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2022.09.15-02.47.35:412][720]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character
+[2022.09.15-02.48.11:072][867]LogWindows: LaunchURL https://docs.unrealengine.com/4.27/zh-Hans//Engine/Animation/SkeletonEditor/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2022.09.15-02.48.27:015][594]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/UE4_Mannequin_SkeletonDAAC0402411E4C6BC1FAD3B45C268249.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2022.09.15-02.48.27:023][594]AssetCheck: New page: 资产保存：UE4_Mannequin_Skeleton
+[2022.09.15-02.48.27:023][594]LogContentValidation: Display: 正在验证Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2022.09.15-02.48.42:878][390]LogSlate: Window '添加蓝图组件' being destroyed
+[2022.09.15-02.49.40:360][296]LogSlate: Took 0.002938 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.09.15-02.52.01:104][678]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/UE4_Mannequin_Skeleton31BFCBAA42E007AF832FF8AF1BBAB395.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.uasset'
+[2022.09.15-02.52.01:116][678]AssetCheck: New page: 资产保存：UE4_Mannequin_Skeleton
+[2022.09.15-02.52.01:116][678]LogContentValidation: Display: 正在验证Skeleton /Game/AnimStarterPack/UE4_Mannequin/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton
+[2022.09.15-02.52.26:630][788]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.09.15-02.52.26:633][788]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/StartMap' took 0.067
+[2022.09.15-02.52.26:633][788]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Character/MyCharacter] ([2] browsable assets)...
+[2022.09.15-02.52.26:661][788]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/Character/MyCharacter.MyCharacter_C]
+[2022.09.15-02.52.26:673][788]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Character/MyCharacter.MyCharacter]
+[2022.09.15-02.52.26:673][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character/MyCharacter]
+[2022.09.15-02.52.26:699][788]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MyCharacter_Auto1BF6C2838439A0DF6814F26A15053EDD0.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/Blueprints/Character/MyCharacter_Auto1.uasset'
+[2022.09.15-02.52.26:700][788]LogFileHelpers: Auto-saving content packages took 0.067
+[2022.09.15-02.54.17:735][371]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.15-02.54.17:749][371]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.15-02.57.33:101][875]LogSlate: Window '添加C++组件' being destroyed
+[2022.09.15-02.57.33:118][875]LogUObjectGlobals: Warning: 寻找对象“Class 无.”失败
+[2022.09.15-02.57.59:559][140]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Weapon/GunMeshComponent.GunMeshComponent
+[2022.09.15-02.57.59:762][140]LogSlate: Window '添加蓝图组件' being destroyed
+[2022.09.15-02.58.11:092][815]BlueprintLog: New page: 编译GunMeshComponent
+[2022.09.15-02.58.11:161][815]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2022.09.15-02.58.53:102][325]BlueprintLog: New page: 编译MyCharacter
+[2022.09.15-02.58.53:161][325]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.09.15-02.59.01:788][836]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.01:788][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.06:054][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.09.15-02.59.06:980][ 86]LogSlate: Window 'Delete Assets' being destroyed
+[2022.09.15-02.59.07:117][ 86]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.07:117][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.07:179][ 86]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.07:179][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.07:198][ 86]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.07:198][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.07:204][ 86]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.07:204][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.07:231][ 86]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/Weapon/GunMeshComponent.GunMeshComponent
+[2022.09.15-02.59.08:275][ 86]LogProperty: Warning: Serialized BlueprintGeneratedClass /Engine/Transient.REINST_GunMeshComponent_C_93 for a property of BlueprintGeneratedClass /Engine/Transient.DEADCLASS_GunMeshComponent_C_0. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/Character/MyCharacter.MyCharacter_C:GunMeshComponent
+    Item = REINST_GunMeshComponent_C_93 /Engine/Transient.World_25:PersistentLevel.MyCharacter_C_0.GunMeshComponent
+[2022.09.15-02.59.08:275][ 86]LogProperty: Warning: Serialized BlueprintGeneratedClass /Engine/Transient.REINST_GunMeshComponent_C_93 for a property of BlueprintGeneratedClass /Engine/Transient.DEADCLASS_GunMeshComponent_C_0. Reference will be nullptred.
+    Property = ObjectProperty /Game/Blueprints/Character/MyCharacter.MyCharacter_C:GunMeshComponent
+    Item = REINST_GunMeshComponent_C_93 /Engine/Transient.World_9:PersistentLevel.MyCharacter_C_1.GunMeshComponent
+[2022.09.15-02.59.08:391][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2022.09.15-02.59.08:447][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.09.15-02.59.11:855][259]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001) (00000000)
+[2022.09.15-02.59.13:829][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.09.15-02.59.13:829][359]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.13:829][359]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.13:896][359]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2022.09.15-02.59.19:015][665]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Character/MyCharacter.MyCharacter
+[2022.09.15-02.59.31:423][390]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.09.15-02.59.31:437][390]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.09.15-02.59.38:551][814]BlueprintLog: New page: 编译MyCharacter
+[2022.09.15-02.59.38:608][814]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2022.09.15-02.59.41:348][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/MyCharacter" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Character/MyCharacter.uasset" SILENT=true
+[2022.09.15-02.59.41:371][973]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MyCharacter1144D0134A2BB9D86AF07C809442A744.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Character/MyCharacter.uasset'
+[2022.09.15-02.59.41:381][973]AssetCheck: New page: 资产保存：MyCharacter
+[2022.09.15-02.59.41:381][973]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/Character/MyCharacter.MyCharacter
+[2022.09.15-02.59.49:094][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.09.15-02.59.49:244][434]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/GameMap.GameMap
+[2022.09.15-02.59.49:245][434]Cmd: MAP LOAD FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.09.15-02.59.49:245][434]LightingResults: New page: 光照构建
+[2022.09.15-02.59.49:245][434]LoadErrors: New page: 正在加载地图：GameMap.umap
+[2022.09.15-02.59.49:282][434]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.49:282][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.49:282][434]MapCheck: New page: 地图检测
+[2022.09.15-02.59.49:282][434]LightingResults: New page: 光照构建
+[2022.09.15-02.59.49:308][434]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.15-02.59.49:313][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.09.15-02.59.49:314][434]LogAudio: Display: Audio Device (ID: 1) registered with world 'GameMap'.
+[2022.09.15-02.59.49:379][434]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.09.15-02.59.49:379][434]LogAIModule: Creating AISystem for world GameMap
+[2022.09.15-02.59.49:408][434]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.09.15-02.59.49:413][434]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.09.15-02.59.49:414][434]MapCheck: 地图检测完成：0个错误、0个警告、完成用时0.075毫秒。
+[2022.09.15-02.59.49:414][434]LogFileHelpers: Loading map 'GameMap' took 0.169
+[2022.09.15-02.59.50:931][524]LogTemp: Repeating last play command: 新建编辑器窗口（编辑器中运行）
+[2022.09.15-02.59.50:937][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.09.15-02.59.50:937][524]PIE: New page: PIE会话：GameMap（2022年9月14日 下午12:59:50）
+[2022.09.15-02.59.50:939][524]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.09.15-02.59.50:940][524]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.09.15-02.59.50:940][524]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_GameMap
+[2022.09.15-02.59.50:949][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008760s)
+[2022.09.15-02.59.50:950][524]LogAIModule: Creating AISystem for world GameMap
+[2022.09.15-02.59.50:950][524]LogPlayLevel: PIE: World Init took: (0.000872s)
+[2022.09.15-02.59.50:950][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/GameMap.GameMap to /Game/Maps/UEDPIE_0_GameMap.GameMap (0.009728s)
+[2022.09.15-02.59.50:978][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.09.15-02.59.50:979][524]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.15-02.59.50:979][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.15-02.59.50:979][524]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.15-02.59.50:979][524]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.15-02.59.50:979][524]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.15-02.59.50:979][524]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.15-02.59.51:001][524]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.15-02.59.51:001][524]LogAudioMixer: Display: 1: FrontRight
+[2022.09.15-02.59.51:011][524]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.09.15-02.59.51:011][524]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.15-02.59.51:011][524]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.15-02.59.51:011][524]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.15-02.59.51:012][524]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.15-02.59.51:012][524]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.15-02.59.51:012][524]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.15-02.59.51:012][524]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.15-02.59.51:012][524]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.15-02.59.51:012][524]LogInit: FAudioDevice initialized.
+[2022.09.15-02.59.51:012][524]LogAudio: Display: Audio Device (ID: 2) registered with world 'GameMap'.
+[2022.09.15-02.59.51:037][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.15-02.59.51:037][524]LogLoad: Game class is 'MyGameMode_C'
+[2022.09.15-02.59.51:038][524]LogWorld: Bringing World /Game/Maps/UEDPIE_0_GameMap.GameMap up for play (max tick rate 60) at 2022.09.14-19.59.51
+[2022.09.15-02.59.51:038][524]LogWorld: Bringing up level for play took: 0.000796
+[2022.09.15-02.59.51:038][524]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2022.09.15-02.59.51:068][524]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.09.15-02.59.51:074][524]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2022.09.15-02.59.51:074][524]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.09.15-02.59.51:074][524]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.09.15-02.59.51:076][524]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.09.15-02.59.51:076][524]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.09.15-02.59.51:076][524]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.09.15-02.59.51:076][524]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2022.09.15-02.59.51:076][524]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.09.15-02.59.51:077][524]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2022.09.15-02.59.51:077][524]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2022.09.15-02.59.51:077][524]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2022.09.15-02.59.51:077][524]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2022.09.15-02.59.51:077][524]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2022.09.15-02.59.51:079][524]PIE: 登陆的服务器
+[2022.09.15-02.59.51:080][524]PIE: PIE总开始时间：0.144秒。
+[2022.09.15-02.59.51:081][524]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.15-02.59.51:081][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.15-02.59.51:081][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.15-02.59.51:082][524]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.15-02.59.51:082][524]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.15-02.59.51:082][524]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.15-02.59.51:082][524]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.15-02.59.51:083][524]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.15-02.59.51:083][524]LogAudioMixer: Display: 1: FrontRight
+[2022.09.15-02.59.51:093][524]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.09.15-02.59.51:093][524]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.15-02.59.51:093][524]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.15-02.59.51:093][524]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.15-02.59.51:093][524]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.15-02.59.51:093][524]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.15-02.59.51:093][524]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.15-02.59.51:094][524]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.15-02.59.51:094][524]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.15-02.59.51:094][524]LogInit: FAudioDevice initialized.
+[2022.09.15-02.59.51:094][524]LogAudio: Display: Audio Device (ID: 3) registered with world 'Untitled'.
+[2022.09.15-02.59.51:114][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.15-02.59.51:114][524]LogNet: Browse: 127.0.0.1:17777/Game/Maps/StartMap
+[2022.09.15-02.59.51:114][524]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.09.15-02.59.51:114][524]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.09.15-02.59.51:115][524]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.09.15-02.59.51:115][524]LogNet: Game client on port 17777, rate 100000
+[2022.09.15-02.59.51:116][524]PIE: 已登陆客户端
+[2022.09.15-02.59.51:117][524]PIE: PIE总开始时间：0.181秒。
+[2022.09.15-02.59.51:118][524]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.09.15-02.59.51:118][524]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.09.15-02.59.51:118][524]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.09.15-02.59.51:119][524]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.09.15-02.59.51:119][524]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.09.15-02.59.51:119][524]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.09.15-02.59.51:119][524]LogAudioMixer: Display: Initializing audio mixer.
+[2022.09.15-02.59.51:120][524]LogAudioMixer: Display: 0: FrontLeft
+[2022.09.15-02.59.51:120][524]LogAudioMixer: Display: 1: FrontRight
+[2022.09.15-02.59.51:129][524]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.09.15-02.59.51:130][524]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.09.15-02.59.51:130][524]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.09.15-02.59.51:130][524]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.09.15-02.59.51:131][524]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.09.15-02.59.51:131][524]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.09.15-02.59.51:131][524]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.09.15-02.59.51:131][524]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.09.15-02.59.51:131][524]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.09.15-02.59.51:131][524]LogInit: FAudioDevice initialized.
+[2022.09.15-02.59.51:131][524]LogAudio: Display: Audio Device (ID: 4) registered with world 'Untitled'.
+[2022.09.15-02.59.51:151][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.15-02.59.51:151][524]LogNet: Browse: 127.0.0.1:17777/Game/Maps/StartMap
+[2022.09.15-02.59.51:151][524]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2022.09.15-02.59.51:151][524]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2022.09.15-02.59.51:151][524]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.09.15-02.59.51:151][524]LogNet: Game client on port 17777, rate 100000
+[2022.09.15-02.59.51:153][524]PIE: 已登陆客户端
+[2022.09.15-02.59.51:154][524]PIE: PIE总开始时间：0.218秒。
+[2022.09.15-02.59.51:203][524]LogRenderer: Reallocating scene render targets to support 1292x988 Format 10 NumSamples 1 (Frame:1).
+[2022.09.15-02.59.52:138][570]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60087
+[2022.09.15-02.59.52:138][570]LogHandshake: SendConnectChallenge. Timestamp: 1.223545, Cookie: 248199170166095092168203175190172246162088085037238007093079
+[2022.09.15-02.59.52:139][570]LogHandshake: SendChallengeResponse. Timestamp: 1.223545, Cookie: 248199170166095092168203175190172246162088085037238007093079
+[2022.09.15-02.59.52:155][571]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60087
+[2022.09.15-02.59.52:155][571]LogHandshake: SendChallengeAck. InCookie: 248199170166095092168203175190172246162088085037238007093079
+[2022.09.15-02.59.52:155][571]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60087
+[2022.09.15-02.59.52:155][571]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.09.15-02.59.52:156][571]LogNet: NotifyAcceptedConnection: Name: GameMap, TimeStamp: 09/14/22 19:59:52, [UNetConnection] RemoteAddr: 127.0.0.1:60087, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.09.15-02.59.52:156][571]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60087, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.09.15-02.59.52:158][571]LogNetVersion: MyDemo 1.0.0.0, NetCL: 0, EngineNetVer: 17, GameNetVer: 0 (Checksum: 72634542)
+[2022.09.15-02.59.52:158][571]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.09.15-02.59.52:172][572]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_GameMap.GameMap: Accepted
+[2022.09.15-02.59.52:172][572]LogNet: Remote platform little endian=1
+[2022.09.15-02.59.52:172][572]LogNet: This platform little endian=1
+[2022.09.15-02.59.52:172][572]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60088
+[2022.09.15-02.59.52:172][572]LogHandshake: SendConnectChallenge. Timestamp: 1.256878, Cookie: 023238208123110098081061250065158215086049146180017065239119
+[2022.09.15-02.59.52:173][572]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2022.09.15-02.59.52:174][572]LogHandshake: SendChallengeResponse. Timestamp: 1.256878, Cookie: 023238208123110098081061250065158215086049146180017065239119
+[2022.09.15-02.59.52:188][573]LogNet: Login request: ?Name=RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E userId: NULL:RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E platform: NULL
+[2022.09.15-02.59.52:188][573]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60088
+[2022.09.15-02.59.52:188][573]LogHandshake: SendChallengeAck. InCookie: 023238208123110098081061250065158215086049146180017065239119
+[2022.09.15-02.59.52:188][573]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60088
+[2022.09.15-02.59.52:189][573]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.09.15-02.59.52:189][573]LogNet: NotifyAcceptedConnection: Name: GameMap, TimeStamp: 09/14/22 19:59:52, [UNetConnection] RemoteAddr: 127.0.0.1:60088, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.09.15-02.59.52:189][573]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60088, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.09.15-02.59.52:189][573]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_GameMap, Game: /Game/Blueprints/GameCore/MyGameMode.MyGameMode_C)
+[2022.09.15-02.59.52:190][573]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/UEDPIE_0_GameMap?game=/Game/Blueprints/GameCore/MyGameMode.MyGameMode_C
+[2022.09.15-02.59.52:190][573]LogWorld: BeginTearingDown for /Temp/Untitled_1
+[2022.09.15-02.59.52:190][573]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.52:190][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.52:218][573]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.15-02.59.52:236][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.09.15-02.59.52:245][573]LogAudio: Display: Audio Device (ID: 3) registered with world 'GameMap'.
+[2022.09.15-02.59.52:245][573]LogAIModule: Creating AISystem for world GameMap
+[2022.09.15-02.59.52:250][573]LogWorld: Bringing World /Game/Maps/UEDPIE_1_GameMap.GameMap up for play (max tick rate 60) at 2022.09.14-19.59.52
+[2022.09.15-02.59.52:250][573]LogWorld: Bringing up level for play took: 0.003840
+[2022.09.15-02.59.52:250][573]LogLoad: Took 0.060726 seconds to LoadMap(/Game/Maps/UEDPIE_0_GameMap)
+[2022.09.15-02.59.52:250][573]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2022.09.15-02.59.52:251][573]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: PendingNetDriver IpNetDriver_2, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.09.15-02.59.52:276][574]LogNet: Client netspeed is 100000
+[2022.09.15-02.59.52:276][574]LogNet: Join request: /Game/Maps/StartMap?Name=RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E?SplitscreenCount=1
+[2022.09.15-02.59.52:277][574]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.52:280][574]LogNet: Join succeeded: RixinLi-DAD8B4A74FB4
+[2022.09.15-02.59.52:280][574]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/UEDPIE_0_GameMap.GameMap: Accepted
+[2022.09.15-02.59.52:280][574]LogNet: Remote platform little endian=1
+[2022.09.15-02.59.52:280][574]LogNet: This platform little endian=1
+[2022.09.15-02.59.52:283][574]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2022.09.15-02.59.52:283][574]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.09.15-02.59.52:283][574]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.09.15-02.59.52:284][574]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.09.15-02.59.52:294][575]LogNet: Login request: ?Name=RixinLi-3A713F434AD720A89CFF4A952A9B1D23 userId: NULL:RixinLi-3A713F434AD720A89CFF4A952A9B1D23 platform: NULL
+[2022.09.15-02.59.52:298][575]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.52:298][575]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.52:299][575]LogNet: Welcomed by server (Level: /Game/Maps/UEDPIE_0_GameMap, Game: /Game/Blueprints/GameCore/MyGameMode.MyGameMode_C)
+[2022.09.15-02.59.52:299][575]LogLoad: LoadMap: 127.0.0.1:17777/Game/Maps/UEDPIE_0_GameMap?game=/Game/Blueprints/GameCore/MyGameMode.MyGameMode_C
+[2022.09.15-02.59.52:299][575]LogWorld: BeginTearingDown for /Temp/Untitled_2
+[2022.09.15-02.59.52:299][575]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-02.59.52:299][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-02.59.52:326][575]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.15-02.59.52:332][575]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.09.15-02.59.52:339][575]LogAudio: Display: Audio Device (ID: 4) registered with world 'GameMap'.
+[2022.09.15-02.59.52:340][575]LogAIModule: Creating AISystem for world GameMap
+[2022.09.15-02.59.52:341][575]LogWorld: Bringing World /Game/Maps/UEDPIE_2_GameMap.GameMap up for play (max tick rate 60) at 2022.09.14-19.59.52
+[2022.09.15-02.59.52:341][575]LogWorld: Bringing up level for play took: 0.000753
+[2022.09.15-02.59.52:342][575]LogLoad: Took 0.042713 seconds to LoadMap(/Game/Maps/UEDPIE_0_GameMap)
+[2022.09.15-02.59.52:342][575]LogNavigation: Warning: NavData RegistrationFailed_DataPendingKill.
+[2022.09.15-02.59.52:364][576]LogNet: Client netspeed is 100000
+[2022.09.15-02.59.52:364][576]LogNet: Join request: /Game/Maps/StartMap?Name=RixinLi-3A713F434AD720A89CFF4A952A9B1D23?SplitscreenCount=1
+[2022.09.15-02.59.52:365][576]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.52:366][576]LogNet: Join succeeded: RixinLi-3A713F434AD7
+[2022.09.15-02.59.52:368][576]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.52:369][576]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(799)]!
+[2022.09.15-02.59.52:369][576]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2022.09.15-02.59.52:369][576]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2022.09.15-02.59.52:387][577]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.53:298][632]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.53:298][632]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.09.15-02.59.54:096][680]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.09.15-02.59.54:096][680]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2022.09.15-03.00.04:730][318]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2022.09.15-03.00.04:730][318]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2022.09.15-03.00.28:712][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.15-03.00.28:712][755]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_2_GameMap
+[2022.09.15-03.00.28:712][755]LogSlate: Window 'MyDemo预览[NetMode: Client 2]  (64-bit/Windows) ' being destroyed
+[2022.09.15-03.00.28:715][755]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-03.00.28:715][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-03.00.28:725][755]LogNet: World NetDriver shutdown IpNetDriver_2 [GameNetDriver]
+[2022.09.15-03.00.28:725][755]LogNet: DestroyNamedNetDriver IpNetDriver_2 [GameNetDriver]
+[2022.09.15-03.00.28:725][755]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: MyPlayerController_C_0, Owner: MyPlayerController_C_0, UniqueId: NULL:RixinLi-3A713F434AD720A89CFF4A952A9B1D23, Channels: 13, Time: 2022.09.15-03.00.28
+[2022.09.15-03.00.28:725][755]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_2, IsServer: NO, PC: MyPlayerController_C_0, Owner: MyPlayerController_C_0, UniqueId: NULL:RixinLi-3A713F434AD720A89CFF4A952A9B1D23
+[2022.09.15-03.00.28:725][755]LogExit: GameNetDriver IpNetDriver_2 shut down
+[2022.09.15-03.00.28:725][755]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_1_GameMap
+[2022.09.15-03.00.28:725][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.15-03.00.28:725][755]LogSlate: Window 'MyDemo预览[NetMode: Client 1]  (64-bit/Windows) ' being destroyed
+[2022.09.15-03.00.28:729][755]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-03.00.28:730][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-03.00.28:733][755]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
+[2022.09.15-03.00.28:733][755]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
+[2022.09.15-03.00.28:733][755]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: MyPlayerController_C_0, Owner: MyPlayerController_C_0, UniqueId: NULL:RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E, Channels: 13, Time: 2022.09.15-03.00.28
+[2022.09.15-03.00.28:733][755]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_1, IsServer: NO, PC: MyPlayerController_C_0, Owner: MyPlayerController_C_0, UniqueId: NULL:RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E
+[2022.09.15-03.00.28:733][755]LogExit: GameNetDriver IpNetDriver_1 shut down
+[2022.09.15-03.00.28:734][755]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_GameMap
+[2022.09.15-03.00.28:734][755]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
+[2022.09.15-03.00.28:734][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.09.15-03.00.28:734][755]LogSlate: Window 'MyDemo预览[NetMode: Server]  (64-bit/Windows) ' being destroyed
+[2022.09.15-03.00.28:737][755]LogWorld: UWorld::CleanupWorld for GameMap, bSessionEnded=true, bCleanupResources=true
+[2022.09.15-03.00.28:738][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-03.00.28:742][755]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
+[2022.09.15-03.00.28:742][755]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
+[2022.09.15-03.00.28:742][755]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60088, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_C_2, Owner: MyPlayerController_C_2, UniqueId: NULL:RixinLi-3A713F434AD720A89CFF4A952A9B1D23
+[2022.09.15-03.00.28:742][755]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60088, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_C_2, Owner: MyPlayerController_C_2, UniqueId: NULL:RixinLi-3A713F434AD720A89CFF4A952A9B1D23, Channels: 13, Time: 2022.09.15-03.00.28
+[2022.09.15-03.00.28:742][755]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60088, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_C_2, Owner: MyPlayerController_C_2, UniqueId: NULL:RixinLi-3A713F434AD720A89CFF4A952A9B1D23
+[2022.09.15-03.00.28:743][755]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:60087, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_C_1, Owner: MyPlayerController_C_1, UniqueId: NULL:RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E
+[2022.09.15-03.00.28:743][755]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60087, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_C_1, Owner: MyPlayerController_C_1, UniqueId: NULL:RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E, Channels: 13, Time: 2022.09.15-03.00.28
+[2022.09.15-03.00.28:743][755]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60087, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: MyPlayerController_C_1, Owner: MyPlayerController_C_1, UniqueId: NULL:RixinLi-DAD8B4A74FB43BB9F80496B2EE48998E
+[2022.09.15-03.00.28:743][755]LogExit: GameNetDriver IpNetDriver_0 shut down
+[2022.09.15-03.00.28:744][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.09.15-03.00.28:749][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.09.15-03.00.28:783][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.15-03.00.28:783][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.15-03.00.28:785][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.09.15-03.00.28:786][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.15-03.00.28:786][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.15-03.00.28:788][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.15-03.00.28:788][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.09.15-03.00.28:795][755]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2022.09.15-03.00.28:815][756]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.09.15-03.00.28:815][756]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.09.15-03.00.28:815][756]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2022.09.15-03.00.31:133][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.15-03.00.31:165][894]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.09.15-03.00.31:175][894]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/GameMap03F4D01A467709BD54AAAC958B19214E.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap'
+[2022.09.15-03.00.31:183][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap_BuiltData" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap_BuiltData.uasset" SILENT=true
+[2022.09.15-03.00.31:247][894]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/GameMap_BuiltDataEF622E944DC86F388826778A6442156B.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap_BuiltData.uasset'
+[2022.09.15-03.00.31:259][894]AssetCheck: New page: 资产保存：多个资产
+[2022.09.15-03.00.31:259][894]LogContentValidation: Display: 正在验证World /Game/Maps/GameMap.GameMap
+[2022.09.15-03.00.31:259][894]LogContentValidation: Display: 正在验证MapBuildDataRegistry /Game/Maps/GameMap_BuiltData.GameMap_BuiltData
+[2022.09.15-03.00.32:693][979]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.09.15-03.00.33:728][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.09.15-03.00.33:895][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
