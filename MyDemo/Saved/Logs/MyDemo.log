@@ -3117,3 +3117,52 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.09.25-03.03.45:085][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2022.09.25-03.03.45:089][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
 [2022.09.25-03.03.45:145][860]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.09.25-03.06.06:291][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2022.09.25-03.06.06:295][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/Maps/GameMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.09.25-03.06.06:305][652]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/GameMap_Auto29CFB552B4ADEB222B7B1619494F3B0E3.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/Maps/GameMap_Auto2.umap'
+[2022.09.25-03.06.06:307][652]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/GameMap' took 0.041
+[2022.09.25-03.06.06:307][652]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.041
+[2022.09.25-03.06.06:307][652]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Weapon/BP_Bullet] ([2] browsable assets)...
+[2022.09.25-03.06.06:319][652]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Weapon/BP_Bullet.BP_Bullet]
+[2022.09.25-03.06.06:319][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Weapon/BP_Bullet]
+[2022.09.25-03.06.06:319][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/BP_Bullet" FILE="../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/Blueprints/Weapon/BP_Bullet_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.25-03.06.06:326][652]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/BP_Bullet_Auto2D6A4BFF849729B84C61BA38164077CDB.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/Blueprints/Weapon/BP_Bullet_Auto2.uasset'
+[2022.09.25-03.06.06:327][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/AI_BP] ([4] browsable assets)...
+[2022.09.25-03.06.06:327][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/AI_BP]
+[2022.09.25-03.06.06:327][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_BP" FILE="../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/AI/AI_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.25-03.06.06:334][652]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/AI_BP_Auto25A9735574F911A9C7ECD34B7117C7DD2.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/AI/AI_BP_Auto2.uasset'
+[2022.09.25-03.06.06:335][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/MyAIC] ([2] browsable assets)...
+[2022.09.25-03.06.06:335][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/MyAIC]
+[2022.09.25-03.06.06:335][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/MyAIC" FILE="../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/AI/MyAIC_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.25-03.06.06:340][652]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MyAIC_Auto21722063C4CF1B6A1F4953499787AD0A2.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/AI/MyAIC_Auto2.uasset'
+[2022.09.25-03.06.06:340][652]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/Zombie_Girl] ([4] browsable assets)...
+[2022.09.25-03.06.06:340][652]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/Zombie_Girl]
+[2022.09.25-03.06.06:340][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Zombie_Girl" FILE="../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/AI/Zombie_Girl_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.09.25-03.06.06:342][652]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/Zombie_Girl_Auto2947F7EAF426BE0C2367AB387FB1BA3D2.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Saved/Autosaves/Game/AI/Zombie_Girl_Auto2.uasset'
+[2022.09.25-03.06.06:343][652]LogFileHelpers: Auto-saving content packages took 0.036
+[2022.09.25-03.07.08:082][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.09.25-03.07.08:756][893]LogSlate: Window '保存内容' being destroyed
+[2022.09.25-03.07.08:771][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/AI_BP" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/AI/AI_BP.uasset" SILENT=true
+[2022.09.25-03.07.08:780][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/AI_BPC558E79A49567D33C83530AD7E536A50.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/AI/AI_BP.uasset'
+[2022.09.25-03.07.08:780][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Weapon/BP_Bullet" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Weapon/BP_Bullet.uasset" SILENT=true
+[2022.09.25-03.07.08:785][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/BP_Bullet72B898C14F2271110A69ED8FA13D7B30.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Weapon/BP_Bullet.uasset'
+[2022.09.25-03.07.08:786][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/GameMap" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.09.25-03.07.08:811][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.09.25-03.07.08:823][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/GameMapF6626CB84F316B844B79F68C8046311E.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Maps/GameMap.umap'
+[2022.09.25-03.07.08:831][893]LogFileHelpers: Saving map 'GameMap' took 0.045
+[2022.09.25-03.07.08:831][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/MyAIC" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/AI/MyAIC.uasset" SILENT=true
+[2022.09.25-03.07.08:837][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MyAIC73D2C1C74D993A6BA71C1DBE4FAA3D66.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/AI/MyAIC.uasset'
+[2022.09.25-03.07.08:837][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Character/MyCharacter" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Character/MyCharacter.uasset" SILENT=true
+[2022.09.25-03.07.08:875][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/MyCharacter96E974684A3089B7BB93DAAD98ACFB2C.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Blueprints/Character/MyCharacter.uasset'
+[2022.09.25-03.07.08:877][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Swat/BluePrints/Swat" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/Swat/BluePrints/Swat.uasset" SILENT=true
+[2022.09.25-03.07.08:880][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/Swat6CD36B9C44F18F5CE5BB93B8E8044E1B.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/Swat/BluePrints/Swat.uasset'
+[2022.09.25-03.07.08:881][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/Zombie_Girl" FILE="../../../../GITHUB/FinalDemo/MyDemo/Content/AI/Zombie_Girl.uasset" SILENT=true
+[2022.09.25-03.07.08:883][893]LogSavePackage: Moving '../../../../GITHUB/FinalDemo/MyDemo/Saved/Zombie_Girl09A22AAF4611E096DC1A57812D8DBAD8.tmp' to '../../../../GITHUB/FinalDemo/MyDemo/Content/AI/Zombie_Girl.uasset'
+[2022.09.25-03.07.08:897][893]AssetCheck: New page: 资产保存：多个资产
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/Character/MyCharacter.MyCharacter
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证Blueprint /Game/Blueprints/Weapon/BP_Bullet.BP_Bullet
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证Blueprint /Game/AI/AI_BP.AI_BP
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证Blueprint /Game/AI/MyAIC.MyAIC
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证Blueprint /Game/Swat/BluePrints/Swat.Swat
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证World /Game/Maps/GameMap.GameMap
+[2022.09.25-03.07.08:897][893]LogContentValidation: Display: 正在验证Blueprint /Game/AI/Zombie_Girl.Zombie_Girl
