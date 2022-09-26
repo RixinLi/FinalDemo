@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="MI_Concrete_1"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=30D9EE334806E332D2BCFB9EA6EF5A3D
+   Parent=Material'"/Game/NeedToMigrate/M_Master_Normal.M_Master_Normal"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Edge Sharpness"),ParameterValue=0.010000,ExpressionGUID=54648A1F4F09E8E11611C6998AC58FEB)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Normal Map Power"),ParameterValue=1.500000,ExpressionGUID=76909D1A45FD7D5658D267A973106D91)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="RefractionDepthBias"))
+   TextureParameterValues(0)=(ParameterInfo=(Name="Mask"),ParameterValue=Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Concrete/T_Concrete_01_M.T_Concrete_01_M"',ExpressionGUID=B3DE920F46E02CB4245E4AA139D5C461)
+   TextureParameterValues(1)=(ParameterInfo=(Name="Normal Map"),ParameterValue=Texture2D'"/Game/NeedToMigrate/T_Concrete_01_N.T_Concrete_01_N"',ExpressionGUID=0B1948664395B90BFEBB6FA5D85CC121)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=05C1DE284A512A5C80107FAFFC638108
+   ReferencedTextureGuids(1)=052FC5234FD09872F096FDA1367A8BB2
+   CachedReferencedTextures(0)=Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_M.T_Brick_01_M"'
+   CachedReferencedTextures(1)=Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_N.T_Brick_01_N"'
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Concrete_01_M",TextureReference=/Game/UWC_Bullet_Holes/Textures/Decals/Concrete/T_Concrete_01_M.T_Concrete_01_M)
+   TextureStreamingData(1)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_Concrete_01_N",TextureReference=/Game/NeedToMigrate/T_Concrete_01_N.T_Concrete_01_N)
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=6A73DC0B435D1FE29147BEA5B4C1F8FF
+End Object

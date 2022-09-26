@@ -1,0 +1,133 @@
+Begin Object Class=/Script/Engine.Material Name="M_Master_Normal"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_5"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_4"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionOneMinus Name="MaterialExpressionOneMinus_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionMaterialFunctionCall Name="MaterialExpressionMaterialFunctionCall_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionDivide Name="MaterialExpressionDivide_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionClamp Name="MaterialExpressionClamp_2"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_5"
+      ParameterName="Normal Map"
+      ExpressionGUID=0B1948664395B90BFEBB6FA5D85CC121
+      Group="1. Textures"
+      Texture=Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_N.T_Brick_01_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=320
+      MaterialExpressionGuid=C08F63A9419AFE4D57F31D9DCDF1CB98
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_4"
+      ParameterName="Mask"
+      ExpressionGUID=B3DE920F46E02CB4245E4AA139D5C461
+      Group="1. Textures"
+      Texture=Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_M.T_Brick_01_M"'
+      SamplerType=SAMPLERTYPE_Masks
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=32
+      MaterialExpressionGuid=C08F63A9419AFE4D57F31D9DCDF1CB98
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_5"
+      DefaultValue=0.010000
+      SliderMax=5.000000
+      ParameterName="Edge Sharpness"
+      ExpressionGUID=54648A1F4F09E8E11611C6998AC58FEB
+      Group="2. Settings"
+      MaterialExpressionEditorX=-672
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=D5119F704EE639446327A6B3B7943940
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_4"
+      DefaultValue=1.000000
+      SliderMax=10.000000
+      ParameterName="Normal Map Power"
+      ExpressionGUID=76909D1A45FD7D5658D267A973106D91
+      Group="2. Settings"
+      MaterialExpressionEditorX=-512
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=A72ABDA34596ECAF23D6EF93DA210B69
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionOneMinus_0"
+      Input=(Expression=MaterialExpressionScalarParameter'"M_Master_Normal:MaterialExpressionScalarParameter_4"')
+      MaterialExpressionEditorX=-336
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=8245EA9746D076A8DBBC10AF82EDE64D
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Master_Normal:MaterialExpressionTextureSampleParameter2D_4"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionClamp'"M_Master_Normal:MaterialExpressionClamp_2"')
+      MaterialExpressionEditorX=-176
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=B2F3554A4679E4F088B66486AD1A68CD
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionMaterialFunctionCall_2"
+      MaterialFunction=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal"'
+      FunctionInputs(0)=(ExpressionInputId=28AAF19044840619BEBDFC824A64C7A0,Input=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Master_Normal:MaterialExpressionTextureSampleParameter2D_5"',InputName="Normal",Mask=1,MaskR=1,MaskG=1,MaskB=1))
+      FunctionInputs(1)=(ExpressionInputId=03CE862F4BD8BFCC0550048115A40E71,Input=(Expression=MaterialExpressionOneMinus'"M_Master_Normal:MaterialExpressionOneMinus_0"',InputName="Flatness"))
+      FunctionOutputs(0)=(ExpressionOutputId=CF2DF7CD446736F3FF50B0A17088C5A7,Output=(OutputName="Result"))
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=336
+      MaterialExpressionGuid=E06D51EA4D4855C8790C66810F07419B
+      Material=Material'"M_Master_Normal"'
+      Outputs(0)=(OutputName="Result")
+   End Object
+   Begin Object Name="MaterialExpressionDivide_2"
+      A=(Expression=MaterialExpressionTextureSampleParameter2D'"M_Master_Normal:MaterialExpressionTextureSampleParameter2D_4"',OutputIndex=1,Mask=1,MaskR=1)
+      B=(Expression=MaterialExpressionScalarParameter'"M_Master_Normal:MaterialExpressionScalarParameter_5"')
+      MaterialExpressionEditorX=-480
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=841D70BA4D564518E7DA4B91D90B3FDA
+      Material=Material'"M_Master_Normal"'
+   End Object
+   Begin Object Name="MaterialExpressionClamp_2"
+      Input=(Expression=MaterialExpressionDivide'"M_Master_Normal:MaterialExpressionDivide_2"')
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=176
+      MaterialExpressionGuid=346B40D8492B125181841ABBD74A45BB
+      Material=Material'"M_Master_Normal"'
+   End Object
+   BaseColor=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"')
+   Opacity=(Expression=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"')
+   MaterialDomain=MD_DeferredDecal
+   BlendMode=BLEND_Translucent
+   DecalBlendMode=DBM_DBuffer_Normal
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionMaterialFunctionCall'"MaterialExpressionMaterialFunctionCall_2"'
+   Expressions(1)=MaterialExpressionMultiply'"MaterialExpressionMultiply_2"'
+   Expressions(2)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_4"'
+   Expressions(3)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_5"'
+   Expressions(4)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_4"'
+   Expressions(5)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_5"'
+   Expressions(6)=MaterialExpressionDivide'"MaterialExpressionDivide_2"'
+   Expressions(7)=MaterialExpressionClamp'"MaterialExpressionClamp_2"'
+   Expressions(8)=MaterialExpressionOneMinus'"MaterialExpressionOneMinus_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=C56BD4AE451620F5B22900AD3D06D273
+   CachedExpressionData=(Parameters=(RuntimeEntries[0]=(NameHashes=(4343228440131776929,16552715545836353725),ParameterInfos=((Name="Edge Sharpness"),(Name="Normal Map Power")),ExpressionGuids=(54648A1F4F09E8E11611C6998AC58FEB,76909D1A45FD7D5658D267A973106D91)),RuntimeEntries[2]=(NameHashes=(8198569358239374743,12076515603125919684),ParameterInfos=((Name="Mask"),(Name="Normal Map")),ExpressionGuids=(B3DE920F46E02CB4245E4AA139D5C461,0B1948664395B90BFEBB6FA5D85CC121)),ScalarValues=(0.010000,1.000000),TextureValues=(Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_M.T_Brick_01_M"',Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_N.T_Brick_01_N"'),ScalarMinMaxValues=((X=0.000000,Y=5.000000),(X=0.000000,Y=10.000000)),ScalarCurveValues=(None,None),ScalarCurveAtlasValues=(None,None),TextureChannelNameValues=((),())),ReferencedTextures=(Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_M.T_Brick_01_M"',Texture2D'"/Game/UWC_Bullet_Holes/Textures/Decals/Brick/T_Brick_01_N.T_Brick_01_N"'),FunctionInfos=((StateId=FE67B48A44296B30FBF15EBB0FC10ADF,Function=MaterialFunction'"/Engine/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.FlattenNormal"')),QualityLevelsUsed=(False,False,False,False))
+   ReferencedTextureGuids(0)=54C6493D4CE480BC538D5FBB520A6652
+   ReferencedTextureGuids(1)=D045B5D443BF3E15787589BFAE0A2F54
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   ParameterOverviewExpansion=(("-12Global 1. Textures", True),("-12Global 2. Settings", True))
+   LightingGuid=F4A01B4B4041EF1CED915A98D5FDDA2D
+End Object
