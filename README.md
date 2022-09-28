@@ -38,3 +38,7 @@
 
 3. 游戏准备开始界面
 <img width="722" alt="1664336420817" src="https://user-images.githubusercontent.com/90631474/192682280-67f6a166-0096-4c6b-8cd8-0801603685d4.png">
+
+#视频与文件
+https://share.weiyun.com/WJ9UnCEu
+
